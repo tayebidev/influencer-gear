@@ -1,0 +1,23 @@
+@media screen and (max-width: 576px) {
+    
+    /* header section */
+    .Influencer-container {
+        flex-direction: column;
+    }
+
+    .Influencer-text,
+    .Influencer-item {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Influencer-text {
+        margin-bottom: 10px;
+    }
+
+    .Influencer-item {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    /* End header  */
+}
