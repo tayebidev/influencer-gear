@@ -1,7 +1,7 @@
 @media screen and (max-width: 576px) {
     
     /* header section */
-    .Influencer-container {
+    .Influencer-container  {
         flex-direction: column;
     }
 
@@ -20,4 +20,31 @@
         gap: 10px;
     }
     /* End header  */
+
+    /*Banner section*/
+    .banner-container{
+        flex-direction: column-reverse;
+        margin-top:-50px ;
+    }
+    .banner-content, .banner-image  {
+        width:auto;
+        text-align: center;
+    }
+    .banner-image{
+        background-size: 90%;
+    }
+    .banner-image img{
+        width: 80%;
+        margin-top: 100px;
+    }
+    .banner-content h2{
+        font-size: 28px;
+        line-height: normal;
+    }
+    .banner-content p{
+        font-size: 20px;
+        padding: 20px;
+        margin-top:5px ;
+        margin-bottom: 05px;
+    }
 }

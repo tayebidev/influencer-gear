@@ -18,14 +18,14 @@ header {
 }
 
 .Influencer-container {
-    display: flex; 
+    display: flex;
     align-items: center;
     margin-top: 50px;
     padding: 0 30px;
 }
 
 .Influencer-text {
-     width: 50%;
+    width: 50%;
 }
 
 .Influencer-text h3 {
@@ -48,4 +48,75 @@ header {
     font-size: 16px;
     font-weight: 600;
 }
+
 /* End Header */
+
+/* Banner section start */
+.banner-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    min-height: 550px;
+}
+
+.banner-content {
+    width: 50%;
+}
+
+.banner-content h2 {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.banner-content p {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 16px 0;
+}
+
+.banner-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 25px;
+    border-radius: 41px;
+    background: #E02C6D;
+    gap: 10px;
+}
+
+.banner-btn button {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    background: none;
+}
+
+.banner-btn span {
+    color: #FFF;
+}
+
+.banner-image {
+    width: 50%;
+    min-height: 500px;
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 50%;
+}
+
+.banner-image img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    width: auto;
+}
+/*End Banner section*/
