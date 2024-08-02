@@ -59,7 +59,6 @@
 
     /* Logo section */
     .logo-content {
-        border: 01px solid red;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         padding: 0px 20px;
@@ -69,8 +68,39 @@
     .logo-content img {
         text-align: center;
     }
+
     /* End logo section */
 
-    
+    /* <!-- Popular section start --> */
+    .popular-content,
+    .see-more {
+        flex-direction: column;
+    }
+
+    .item-description {
+        margin: 5px auto;
+    }
+
+/* Featured Products section Start */
+    .featured-content {
+        flex-direction: column-reverse;
+    }
+
+    .featured-img,
+    .featured-text-group {
+        width: 100%;
+    }
+
+    .featured-content {
+        text-align: center;
+        padding: 10px 0;
+    }
+    .featured-description {
+        width: 350px;
+        margin: 0 auto;
+    }
+    .prebook{
+        margin: 30px 0;
+    }
 
 }
