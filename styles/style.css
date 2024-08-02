@@ -287,7 +287,8 @@ header {
     width: 450px;
 
 }
-.prebook{
+
+.prebook {
     border-radius: 0;
 }
 
@@ -298,7 +299,42 @@ header {
 footer {
     background-color: #18191F;
     color: #FFF;
-    align-items: center;
-    padding: 50px auto;
+    min-height: 200px;
+    text-align: center;
+    padding: 50px;
+}
 
+footer h3 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+footer p {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.footer-logos {
+    margin-top: 10px;
+    color: white;
+    display: inline-flex;
+    align-items: flex-start;
+
+}
+
+.fa-brands {
+    color: #FFF;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.footer-logos>a {
+    height: 25PX;
+    width: 25PX;
+    border-radius: 50%;
+    background-color: rgb(82, 78, 78);
+    margin-right: 15px;
 }
